@@ -1,5 +1,4 @@
 import MovieStars from "components/MovieStars";
-import { deflate } from "zlib";
 import './style.css';
 
 function MovieScore() {
