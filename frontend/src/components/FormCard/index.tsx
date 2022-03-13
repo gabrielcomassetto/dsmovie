@@ -4,7 +4,6 @@ import { Movie } from 'types/movie';
 import { useEffect, useState } from 'react';
 import axios, { AxiosRequestConfig } from 'axios';
 import { BASE_URL } from 'utils/requests';
-import { response } from 'express';
 import { validateEmail } from 'utils/validate';
 
 type Props = {
